@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <main>
             <section className='w-full bg-[#1a1a1a] text-white '>
-                <footer className="bg-black text-white py-16 px-6">
+                <footer className="bg-black text-white  py-16 px-6">
                     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
 
                         <div>
@@ -19,14 +19,14 @@ export default function Footer() {
                             </div>
                             <address className="not-italic leading-6 mb-4">
 
-                                <p>Pune, Maharashtra 411001</p>
+                                <p className='text-xl'>Pune, Maharashtra 411001</p>
                             </address>
-                            <p className="mb-2">
+                            <p className="mb-2 text-xl ">
                                 <a href="mailto:siddhibarge383@gmail.com" className="underline hover:text-gray-300">
                                     siddhibarge383@gmail.com
                                 </a>
                             </p>
-                            <p>
+                            <p className='text-xl'>
                                 <a href="tel:+9172760151716" className="underline hover:text-gray-300">
                                     +91 72760151716
                                 </a>
@@ -43,25 +43,25 @@ export default function Footer() {
                                 </ul>
                             </div> */}
                             <div className="mt-6">
-                                <h4 className="font-semibold text-lg mb-2">Follow</h4>
+                                <h4 className="font-semibold text-xl mb-2">Follow</h4>
                                 <ul className="space-y-1">
-                                    <li><a href="https://www.instagram.com/sidd_liftzz?igsh=N3dwb3ExaTdwbWhn" className="hover:underline">Instagram</a></li>
-                                    <li><a href="https://wa.me/9172760151716" className="hover:underline">WhatsApp</a></li>
+                                    <li><a href="https://www.instagram.com/sidd_liftzz?igsh=N3dwb3ExaTdwbWhn" className="hover:underline text-xl ">Instagram</a></li>
+                                    <li><a href="https://wa.me/9172760151716" className="hover:underline text-xl ">WhatsApp</a></li>
                                 </ul>
                             </div>
                         </div>
 
 
                         <div>
-                            <h4 className="text-2xl font-bold mb-2">Stay Informed</h4>
-                            <p className="text-gray-400 mb-4">Sign up with your email address to receive updates & fitness tips.</p>
-                            <div className="flex mb-2">
+                            <h4 className="text-3xl font-bold mb-2">Stay Informed</h4>
+                            <p className="text-gray-400 mb-4 text-xl ">Sign up with your email address to receive updates & fitness tips.</p>
+                            <div className="flex mb-2 text-xl ">
                                 <input
                                     type="email"
                                     placeholder="Email Address"
-                                    className="px-4 py-2 w-full bg-white text-black rounded-l-md"
+                                    className="px-4 py-2 w-full bg-white text-black rounded-l-md text-xl "
                                 />
-                                <button className="bg-white text-black px-4 py-2 font-semibold rounded-r-md hover:bg-gray-200">
+                                <button className="bg-white text-black text-xl px-4 py-2 font-semibold rounded-r-md hover:bg-gray-200">
                                     Sign Up
                                 </button>
                             </div>
