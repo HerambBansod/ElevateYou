@@ -27,7 +27,7 @@ export default function Footer() {
                                 </a>
                             </p>
                             <p className='text-xl'>
-                                <a href="tel:+9172760151716" className="underline hover:text-gray-300">
+                                <a href="tel:+917276015176" className="underline hover:text-gray-300">
                                     +91 72760151716
                                 </a>
                             </p>
