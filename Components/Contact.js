@@ -136,14 +136,14 @@ export default function Contact() {
                                         <FaInstagram />
                                     </a>
                                     <a
-                                        href="https://wa.me/9172760151716"
+                                        href="https://wa.me/917276015176"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="hover:text-green-500 transition text-3xl"
                                     >
                                         <FaWhatsapp />
                                     </a>
-                                    <a href="tel:+9172760151716" className="hover:text-yellow-400 transition text-3xl">
+                                    <a href="tel:+917276015176" className="hover:text-yellow-400 transition text-3xl">
                                         <FaPhoneAlt />
                                     </a>
                                 </div>
@@ -155,7 +155,7 @@ export default function Contact() {
 
                                 <div>
                                     <h3 className="text-3xl font-semibold text-[#ff7846] mb-1">Phone</h3>
-                                    <p className='text-xl'>+91-72760151716</p>
+                                    <p className='text-xl'>+91-7276015176</p>
                                 </div>
                             </div>
 
